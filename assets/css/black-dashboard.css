@@ -12481,7 +12481,7 @@ a.text-danger:focus {
 }
 
 .text-light {
-  color: #adb5bd !important;
+  color: #d3dbe3 !important;
 }
 
 a.text-light:hover,
@@ -16644,7 +16644,7 @@ p.description {
 
 ul li,
 ol li {
-  color: #ffffff;
+  color: #d3dbe3;
 }
 
 pre {
@@ -19178,7 +19178,7 @@ textarea.form-control:active {
   border-radius: 25px;
   z-index: 4;
   margin-bottom: 0;
-  height: 43px;
+  /*height: 43px;*/
   padding-right: 5px;
 }
 
