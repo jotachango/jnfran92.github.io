@@ -13076,7 +13076,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-link.dropdown-toggle,
 .navbar .navbar-nav>a.btn.btn-link.dropdown-toggle {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .btn.dropdown-toggle:after,
@@ -14572,7 +14572,7 @@ fieldset[disabled] .btn-link.active {
 
 @media screen and (min-width: 992px) {
   .dropdown-menu .dropdown-item {
-    color: #9A9A9A;
+    color: #cecece;
   }
 }
 
@@ -15841,7 +15841,7 @@ img {
 }
 
 .navbar.bg-white .form-control::placeholder {
-  color: #9A9A9A !important;
+  color: #cecece !important;
 }
 
 .navbar.bg-dark {
@@ -16585,7 +16585,7 @@ p.description {
 .card-description,
 .footer-big p,
 .card .footer .stats {
-  color: #9A9A9A;
+  color: #cecece;
   font-weight: 300;
 }
 
@@ -16918,7 +16918,7 @@ table.tablesorter thead tr .headerSortDown {
 
 .form-check.disabled .form-check-label,
 .form-check.disabled .form-check-label {
-  color: #9A9A9A;
+  color: #cecece;
   opacity: .5;
   cursor: not-allowed;
 }
@@ -16999,12 +16999,12 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .form-check-radio input[type="radio"]:disabled+.form-check-sign {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .form-check-radio input[type="radio"]:disabled+.form-check-sign::before,
 .form-check-radio input[type="radio"]:disabled+.form-check-sign::after {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .fixed-plugin {
@@ -19599,7 +19599,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .white-content .navbar.navbar-transparent .search-bar.input-group .form-control::placeholder {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .white-content .sidebar {
@@ -19781,7 +19781,7 @@ Copyright (c) 2015 Daniel Eden
 .white-content .btn.btn-link:hover,
 .white-content .btn.btn-link:active,
 .white-content .btn.btn-link:focus {
-  color: #9A9A9A !important;
+  color: #cecece !important;
 }
 
 .white-content .btn-group .btn.active {
@@ -19911,7 +19911,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .white-content .full-page .description {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .white-content .full-page .footer ul li a {
@@ -19985,7 +19985,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card .card-header .card-category {
-  color: #9A9A9A;
+  color: #cecece;
   margin-bottom: 5px;
   font-weight: 300;
 }
@@ -20253,7 +20253,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card-chart .card-footer .stats {
-  color: #9A9A9A;
+  color: #cecece;
 }
 
 .card-chart .dropdown {
@@ -20417,7 +20417,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card-tasks .card-body i {
-  color: #9A9A9A;
+  color: #cecece;
   font-size: 1.4em;
 }
 
