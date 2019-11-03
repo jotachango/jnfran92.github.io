@@ -228,7 +228,7 @@ blackDashboard = {
         message: message
       }, {
         type: 'info',
-        timer: 4000,
+        timer: 500,
         placement: {
           from: 'top',
           align: 'right'

@@ -35,15 +35,11 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/demo/demo.css" rel="stylesheet" />
 
-
 </head>
 
 <body class="">
 
-
 <div class="wrapper">
-
-
 
     <div class="sidebar">
         <!--
@@ -132,32 +128,39 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="search-bar input-group">
 
-                            <a class="btn btn-link" href="https://github.com/jnfran92" role="button">
+                            <a class="btn btn-link" href="https://github.com/jnfran92" role="button"
+                               data-toggle="tooltip" title="Github">
                                 <i class="fab fa-github"></i>
                                 <span class="d-lg-none d-md-block"><small>Github</small></span>
                             </a>
 
-                            <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
 
-                            <a class="btn btn-link" href="https://www.linkedin.com/in/jnfran92/"  role="button">
+                            <a class="btn btn-link" href="https://www.linkedin.com/in/jnfran92/"  role="button"
+                            data-toggle="tooltip" title="Linked in">
                                 <i class="fab fa-linkedin"></i>
                                 <span class="d-lg-none d-md-block"><small>Linked in</small></span>
                             </a>
 
-                            <a class="btn btn-link" href="https://www.researchgate.net/profile/Juan_Chango" role="button">
+                            <a class="btn btn-link" href="https://www.researchgate.net/profile/Juan_Chango" role="button"
+                            data-toggle="tooltip" title="Research Gate">
                                 <i class="fa fa-flask"></i>
                                 <span class="d-lg-none d-md-block"><small>Science</small></span>
                             </a>
 
 
-                            <a class="btn btn-link" href="https://twitter.com/jnfran92" role="button">
+                            <a class="btn btn-link" href="https://twitter.com/jnfran92" role="button"
+                            data-toggle="tooltip" title="Twitter">
                                 <i class="fa fa-twitter"></i>
                                 <span class="d-lg-none d-md-block"><small>Twitter</small></span>
                             </a>
 
-                            <a class="btn btn-link" href="mailto:jnfran92@gmail.com" role="button">
+                            <a class="btn btn-link"
+                               role="button" data-toggle="tooltip"
+                               title="jnfran92@gmail.com"
+                               id="email_button"
+                               onclick="copyTheMail()">
                                 <i class="fa fa-envelope"></i>
-                                <span class="d-lg-none d-md-block"><small>E-mail</small></span>
+                                <span class="d-lg-none d-md-block"><small>e-mail</small></span>
                             </a>
 
                         </li>
@@ -713,6 +716,8 @@
 <script>
     $(document).ready(function() {
         $().ready(function() {
+            // Activate white theme!!
+            $('body').addClass('white-content');
 
             // window.alert("Init")
 
@@ -823,11 +828,6 @@
                 $('body').removeClass('white-content');
             });
 
-
-            // Activate white theme!!
-            $('body').addClass('white-content');
-
-
         });
     });
 </script>
@@ -836,6 +836,26 @@
         // Javascript method's body can be found in assets/js/demos.js
         demo.initDashboardPageCharts();
     });
+</script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<script>
+    function copyTheMail() {
+        // var emailText = "jnfran92@gmail.com";
+        document.getElementById('email_button').title = "";
+        blackDashboard.showSidebarMessage('<b>jnfran92@gmail.com</b> copied to clipboard!');
+
+        var textArea = document.createElement("textarea");
+        textArea.value = "jnfran92@gmail.com";
+        textArea.style.position="fixed";  //avoid scrolling to bottom
+        document.body.appendChild(textArea);
+        textArea.select();
+        textArea.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+    }
 </script>
 </body>
 
