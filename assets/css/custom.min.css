@@ -1,0 +1,31 @@
+.custom-p-top{
+    padding-top: 300px;
+}
+
+.custom-p-half-top{
+    padding-top: 70px;
+}
+
+.custom-p-bottom{
+    padding-bottom: 20px;
+}
+
+.bg-custom-black{
+    background-color: #0f0f0f;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+/*body{*/
+/*    color: #0f0f0f;*/
+/*    background:url('/static/img/hd_back.png') top no-repeat;*/
+/*    background-attachment:fixed;*/
+/*    background-size: auto;*/
+/*}*/
+
