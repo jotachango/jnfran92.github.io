@@ -1,18 +1,3 @@
-<!--
-=========================================================
-* * Black Dashboard - v1.0.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/black-dashboard
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,24 +5,67 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-
     <link rel="icon" type="image/png" href="assets/img/favi_jnfran92.jpg">
-    <title>Juan Francisco Chango Perugachi</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Juan Francisco Chango Perugachi | Senior Mobile Developer | AI, HPC & Android Expert</title>
     <meta name="description"
           content="Juan Francisco Chango Perugachi | MSc. in Computer Science | Android and Python Developer | Numerical Simulation researcher | AI/ML enthusiast. From Quito Ecuador, living in Santiago, Chile.">
+    <meta name="keywords"
+          content="Juan Francisco Chango, Mobile Developer, AI, HPC, Android, Python, Machine Learning, Numerical Simulation, PhD, Santiago, Chile, Ecuador">
+    <meta name="author" content="Juan Francisco Chango">
+    <meta property="og:title"
+          content="Juan Francisco Chango Perugachi | Senior Mobile Developer | AI, HPC & Android Expert">
+    <meta property="og:description"
+          content="Discover the professional journey of Juan Francisco Chango, Senior Mobile Developer with expertise in AI, HPC, and Android development.">
+    <meta property="og:image" content="assets/img/profile.jpeg">
+    <meta property="og:url" content="https://jnfran92.com">
 
+    <!-- Open Graph for Social Media -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Juan Francisco Chango Perugachi | Senior Mobile Developer">
+    <meta name="twitter:description"
+          content="Explore the professional profile of Juan Francisco Chango, Senior Mobile Developer. AI, HPC, and Android enthusiast.">
+    <meta name="twitter:image" content="assets/img/profile.jpeg">
 
-    <!--     Fonts and icons     -->
+    <!-- Additional Fonts and Icons -->
     <link href="assets/css/custom.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,600,700,800" rel="stylesheet"/>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Nucleo Icons -->
     <link href="assets/css/nucleo-icons.css" rel="stylesheet"/>
-    <!-- CSS Files -->
     <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet"/>
-    <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/demo/demo.css" rel="stylesheet"/>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Juan Francisco Chango Perugachi",
+            "url": "https://jnfran92.com",
+            "image": "assets/img/profile.jpeg",
+            "sameAs": [
+                "https://www.linkedin.com/in/jotachango/",
+                "https://github.com/jotachango",
+                "https://www.researchgate.net/profile/Juan_Chango"
+            ],
+            "jobTitle": "Senior Mobile Developer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Falabella"
+            },
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidad Austral de Chile"
+            },
+            "nationality": "Ecuadorian",
+            "address": {
+                "@type": "Place",
+                "name": "Santiago, Chile"
+            }
+        }
+    </script>
 
 </head>
 
@@ -46,101 +74,60 @@
 <div class="wrapper">
     <div class="main-panel">
         <!-- Navbar -->
-
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container p-1">
-
-
                 <a class="navbar-brand"><b>Juan F. Chango</b></a>
-
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar navbar-kebab"></span>
                     <span class="navbar-toggler-bar navbar-kebab"></span>
                     <span class="navbar-toggler-bar navbar-kebab"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navigation">
                     <ul class="navbar-nav ml-auto">
                         <li class="search-bar input-group">
-
                             <a class="btn btn-link" href="https://github.com/jotachango" role="button"
                                data-toggle="tooltip" title="Github">
                                 <i class="fab fa-github"></i>
                                 <span class="d-lg-none d-md-block"><small>Github</small></span>
                             </a>
-
-
                             <a class="btn btn-link" href="https://www.linkedin.com/in/jotachango/" role="button"
                                data-toggle="tooltip" title="Linked in">
                                 <i class="fab fa-linkedin"></i>
                                 <span class="d-lg-none d-md-block"><small>Linked in</small></span>
                             </a>
-
                             <a class="btn btn-link" href="https://www.researchgate.net/profile/Juan_Chango"
-                               role="button"
-                               data-toggle="tooltip" title="Research Gate">
+                               role="button" data-toggle="tooltip" title="Research Gate">
                                 <i class="fa fa-flask"></i>
                                 <span class="d-lg-none d-md-block"><small>Science</small></span>
                             </a>
-
-                            <a class="btn btn-link"
-                               role="button" data-toggle="tooltip"
-                               title="jnfran92@gmail.com"
-                               id="email_button"
-                               onclick="copyTheMail()">
+                            <a class="btn btn-link" role="button" data-toggle="tooltip" title="jnfran92@gmail.com"
+                               id="email_button" onclick="copyTheMail()">
                                 <i class="fa fa-envelope"></i>
-                                <span class="d-lg-none d-md-block"><small>e-mail</small></span>
+                                <span class="d-lg-none d-md-block"><small>Email</small></span>
                             </a>
                         </li>
-
-                        <li class="separator d-lg-none"></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-
-        <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="tim-icons icon-simple-remove"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!--        about-->
+        <!-- About Me Section -->
         <div class="container" style="margin-top: 90px">
-            <!-- Top margin -->
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <!-- Card header -->
                         <div class="card-header">
-                            <div class="d-flex justify-content-start">
-                                <h2 class="card-title font-weight-bold">About Me</h2>
-                            </div>
+                            <h2 class="card-title font-weight-bold">About Me</h2>
                         </div>
-
-                        <!-- Card content -->
                         <div class="card-body">
                             <div class="row align-items-center">
-
-                                <!-- Profile picture and location -->
                                 <div class="col-md-3 col-12 text-center mb-4">
                                     <img class="img-fluid rounded mb-3" src="assets/img/profile.jpeg"
                                          alt="Juan Francisco Chango Perugachi">
                                     <a class="text-success logo-normal d-block">
                                         <i class="tim-icons icon-square-pin"></i> Santiago, Chile
                                     </a>
-                                    <!-- Interest badges -->
                                     <div class="text-info mt-3">
                                         <span class="badge badge-default">HPC</span>
                                         <span class="badge badge-info">AI-ML</span>
@@ -148,40 +135,28 @@
                                         <span class="badge badge-warning">Python</span>
                                     </div>
                                 </div>
-
-                                <!-- Updated Personal information -->
                                 <div class="col-md-9 col-12">
                                     <h4 class="text-success font-weight-bold">Juan Francisco Chango Perugachi</h4>
-                                    <h5 class="text-info">
-                                        📱 Senior Mobile Developer | 🟢 Vue.js Enthusiast | 🤖 Passionate about AI & HPC
-                                    </h5>
-
-                                    <p class="mt-4">
-                                        I have a deep passion for coding and music. Originally from <b>Quito,
-                                        Ecuador</b> 🇪🇨, I’m currently based in <b>Santiago, Chile</b> 🇨🇱, although I
-                                        live as a digital nomad, traveling around the world 🌍. I hold a Master's degree
-                                        in Computer Science and began my PhD studies in 2021 (currently on hold).
-                                    </p>
-
-                                    <p>
-                                        Currently, I work as a <b>Senior Software Developer at Falabella</b> 💚. I’m
-                                        always open to exploring new research projects or exciting opportunities in
-                                        software development or AI. If you’re working on something interesting, feel
-                                        free to reach out!
-                                    </p>
-
-                                    <!-- Contact Section -->
+                                    <h5 class="text-info">📱 Senior Mobile Developer | 🟢 Vue.js Enthusiast | 🤖 Passionate
+                                        about AI & HPC</h5>
+                                    <p class="mt-4">I have a deep passion for coding and music. Originally from <b>Quito,
+                                        Ecuador</b> 🇪🇨, I’m currently based in <b>Santiago, Chile</b> 🇨🇱, living as a
+                                        digital nomad. I hold a Master's in Computer Science and began my PhD studies in
+                                        2021 (currently on hold).</p>
+                                    <p>Currently, I work as a <b>Senior Software Developer at Falabella</b>. I'm always
+                                        open to new research projects or exciting opportunities in software development
+                                        or AI. Feel free to reach out!</p>
                                     <div class="mt-4 text-center">
                                         <p>
-                                            <a class="text-info" href="https://github.com/jotachango" target="_blank">GitHub</a> |
+                                            <a class="text-info" href="https://github.com/jotachango" target="_blank">GitHub</a>
+                                            |
                                             <a class="text-info" href="https://www.linkedin.com/in/jotachango/"
                                                target="_blank">LinkedIn</a> |
-                                            <a class="text-info" href="https://www.researchgate.net/profile/Juan_Chango" target="_blank">ResearchGate</a>
-                                            |
+                                            <a class="text-info" href="https://www.researchgate.net/profile/Juan_Chango"
+                                               target="_blank">ResearchGate</a> |
                                             <a class="text-info" href="mailto:jnfran92@gmail.com">Email</a>
                                         </p>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -312,7 +287,7 @@
                                  alt="ARD Thesis Project">
 
                             <div class="card-text mb-4">Watch a brief video summarizing my thesis:</div>
-                            <iframe width="auto" height="315" src="https://www.youtube.com/embed/zYwKiNzNJNo"
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/zYwKiNzNJNo"
                                     class="mx-auto d-block mb-5" frameborder="0" allowfullscreen></iframe>
 
                             <!-- PhD Studies Section -->
@@ -409,7 +384,7 @@
                             <br><br>
                             Below is a video highlighting my work at SoyMomo:
                             <br>
-                            <iframe width="auto" height="315" src="https://www.youtube.com/embed/ea1XmraPAtA"
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/ea1XmraPAtA"
                                     class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
@@ -433,7 +408,7 @@
                             <br><br>
                             Below is a video showcasing my work at TALOV:
                             <br>
-                            <iframe width="auto" height="315" src="https://www.youtube.com/embed/K7GSwzHvLGg"
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/K7GSwzHvLGg"
                                     class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
@@ -453,7 +428,7 @@
                             <br><br>
                             Below is a video:
                             <br>
-                            <iframe width="auto" height="315" src="https://www.youtube.com/embed/tahNo08LVs8"
+                            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tahNo08LVs8"
                                     class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
